@@ -229,7 +229,7 @@ export default function OrderCart() {
 
   const placeOrder = () => {
     if (cart.length > 0) {
-      
+
       setCustomerDetailsStage(true);
     }
   };
@@ -242,7 +242,7 @@ export default function OrderCart() {
       navigate("/login");
       return;
     }
-
+//ot
     if (
       customerDetails.name.trim() &&
       customerDetails.address.trim() &&
