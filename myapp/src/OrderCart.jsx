@@ -242,7 +242,6 @@ export default function OrderCart() {
       navigate("/login");
       return;
     }
-//ot
     if (
       customerDetails.name.trim() &&
       customerDetails.address.trim() &&
